@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.cabeçalho {
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background-color: rgb(188, 45, 224);
+}
+
+.logo {
+    background-color: rgb(134, 0, 134);
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: small;
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.container-main {
+    width: 100%;
+    height: 80px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-main {
+    display: flex;
+    color: rgb(134, 0, 134);
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.hr1 {
+    background-color: black;
+    width: 100px;
+    height: 2px;
+    border-radius: 2px;
+}
+
+.text-base {
+    width: 100%;
+    height: 200px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.equipe {
+    margin: 20px;
+    display: flex;
+    color: rgb(134, 0, 134);
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.hr2 {
+ 
+    background-color: black;
+    width: 100px;
+    height: 2px;
+    border-radius: 10px;
+
+
+}
+
+.section-team{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+
+}
+
+.team-membro {
+    width: 100px;
+    height: 100px;
+    background-color: #800080;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.container-team {
+    color: #800080;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+.team {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: column;
+    flex-direction: column;
+}
+
+.container-dev{
+    color: #800080;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.dev {
+    color: #800080;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 50px 0;
+
+
+}
+
+.rodape {
+    
+    background-color: rgb(134, 0, 134);
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: small;
+}
